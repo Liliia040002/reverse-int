@@ -12,7 +12,8 @@ module.exports = function reverse (n) {
 
     } else if (reverse[0] === '0') {
         reverse = reverse.substr(1);
-    };
+
+    }
   
         return reverse;
 
@@ -21,10 +22,29 @@ module.exports = function reverse (n) {
 
 
 
-console.log(reverse(2563));
-console.log(reverse(123));
-console.log(reverse(-123));
-console.log(reverse(-192));
-console.log(reverse(170));
+// console.log(reverse(2563));
+// console.log(reverse(123));
+// console.log(reverse(-123));
+// console.log(reverse(-192));
+// console.log(reverse(170));
+// console.log(reverse(605));
+
+
+
+
+
+// function changeNum (n) {
+
+//     let newStr = n.toString();
+
+//     if (newStr.substr(0, 1) === "0") {
+//         return newStr.substr(2);
+//     };
+// }
+
+
+
+// console.log(changeNum('001'));
+
 
 
